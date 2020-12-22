@@ -7,9 +7,9 @@
 <body>
 <?php 
 	// DB接続設定
-$dsn = 'mysql:dbname=tb221060db;host=localhost';
-$user = 'tb-221060';
-$password = 'kwsWVbySb8';
+$dsn = '';
+$user = '';
+$password = '';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 $sql = "CREATE TABLE IF NOT EXISTS nensyu"
 	." ("
