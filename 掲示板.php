@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<!--練習-->
 
 
 <?php 
